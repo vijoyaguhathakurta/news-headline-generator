@@ -40,14 +40,14 @@ The model is trained on article–headline pairs to learn semantic relationships
 
 ## Project Structure
 
-news-headline-generator/
+news-headline-generator
  ├─ transformer-training.ipynb     # Model training notebook
  ├─ news-dataset-sample.csv        # Small dataset sample (100 rows)
- ├─ text-summarizer/               # Flask application
+ ├─ text-summarizer                # Flask application
  │   ├─ app.py                     # Flask app entry point
  │   ├─ text_summary.py            # Inference & summarization logic
  │   ├─ tokenizer.pickle           # Saved tokenizer
- │   └─ templates/                 # HTML templates
+ │   └─ templates                  # HTML templates
 
 
 ## Workflow
