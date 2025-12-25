@@ -39,7 +39,7 @@ The model is trained on article–headline pairs to learn semantic relationships
 
 
 ## Project Structure
-```
+
 news-headline-generator/
  ├─ transformer-training.ipynb     # Model training notebook
  ├─ news-dataset-sample.csv        # Small dataset sample (100 rows)
@@ -48,7 +48,6 @@ news-headline-generator/
  │   ├─ text_summary.py            # Inference & summarization logic
  │   ├─ tokenizer.pickle           # Saved tokenizer
  │   └─ templates/                 # HTML templates
-```
 
 
 ## Workflow
