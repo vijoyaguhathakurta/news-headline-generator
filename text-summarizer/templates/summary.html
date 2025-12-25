@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Text Summary Generator</title>
+        <!--Giving style to body,textarea (for original text and summarized text)-->
+        <style>
+            body {
+                background-color:#FFE5B4;
+                background-size: cover;
+                background-position: center;
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+            }
+            textarea {
+                background: rgba(255, 255, 255, 0.8);
+                padding: 8px;
+                width: 100%;
+                height: 170px;
+                margin-bottom: 10px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                resize: vertical;
+            }
+            
+            summary {
+                width: 100%;
+                height: 170px;
+                margin-top: 20px;
+                padding: 8px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                resize: vertical;
+            }
+        </style>
+ </head>
+ <body>
+     <div id="container">
+        <!--customizing styles for heading types h1 and h4-->
+        <style>
+                h1{text-shadow: 5px 5px 10px violet;}
+                h4{text-shadow: 5px 5px 10px;}
+        </style>
+        <center><h1 style="color: rgb(128, 0, 128)">TEXT SUMMARY GENERATOR</h1></center>
+        <div class="container" style=" display:flex;justify-content:space-around">  
+            <h4 style="color: #f94f20">ORIGINAL TEXT:</h4><br>
+            <textarea id="inputText"  placeholder="Enter text to summarize...";
+                        style="border: 2px violet;
+                            padding: 8px;
+                            margin: 20px;
+                            border-radius: 3px;
+                            box-shadow: 1px 2px 3px 4px rgb(128, 0, 128);
+                        display: inline"readonly>{{orignal_txt}}
+                        
+            </textarea>
+            <h4 style="color: rgb(18, 190, 59)">GENERATED SUMMARY TEXT:</h4><br>
+            <textarea id="summary" placeholder="Summary will appear here...";
+                    style="border: 2px violet;
+                    padding: 8px;
+                        margin: 20px;
+                        border-radius: 3px;
+                        box-shadow: 1px 2px 3px 4px rgb(128, 0, 128);
+                        display: inline" readonly>{{summary}}
+                        
+            </textarea>
+            </div>
+        </div>
+    </body>
+</html>
