@@ -42,9 +42,9 @@ pip install -r requirements.txt
 
 ## Application Demo
 ### Input Page
-![Input Page](screenshots/input-page.jpg)
+![Input Page](Screenshots/input-page.jpg)
 ### Generated Summary Output
-![Generated Summary](screenshots/output-page.jpg)
+![Generated Summary](Screenshots/output-page.jpg)
 
 
 ## Limitations & Future Work
