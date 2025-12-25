@@ -17,6 +17,11 @@ The focus of this project is **conceptual understanding and academic learning**,
 * Output: Generated headline
 The model is trained on article–headline pairs to learn semantic relationships between long-form text and short summaries.
 
+## Dataset
+* The original public dataset contained a large number of news articles.
+* **Only a small sample (first 100 rows)** is included in this repository due to GitHub file size limits.
+* The dataset is used strictly for **academic and learning purposes**.
+
 ## Technologies Used
 * Python
 * Natural Language Processing (NLP)
@@ -35,10 +40,12 @@ pip install -r requirements.txt
 4. Flask app loads the tokenizer and model logic
 5. User inputs article text and receives generated headline
 
-## Dataset
-* The original public dataset contained a large number of news articles.
-* **Only a small sample (first 100 rows)** is included in this repository due to GitHub file size limits.
-* The dataset is used strictly for **academic and learning purposes**.
+## Application Demo
+### Input Page
+![Input Page](screenshots/input_page.png)
+### Generated Summary Output
+![Generated Summary](screenshots/output_page.png)
+
 
 ## Limitations & Future Work
 * Model trained on a limited dataset
